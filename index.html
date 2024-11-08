@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+<header id="head">
+
+    <div id="div1">  
+        <label>Nome</label>
+    <input type="tel" placeholder="Escreva seu nome" id="nome"  oninput=mascara_nome() maxlength="20">
+    
+    </div>
+
+    <div id="div2">  
+        <label>Endereço</label>
+    <input type="end" placeholder="Endereço" id="end"  oninput=mascara_end() maxlength="30">
+    
+    </div>
+    
+<div id="div3">  
+    <label>Tel</label>
+<input type="tel" placeholder="(31)99999-9999" id="telefone"  oninput=mascara_telefone() maxlength="14">
+
+</div>
+
+<div id="div4">
+    <label for="dinheiro"> CPF </label>
+<input type="text" placeholder="xxx.xxx.xxx-xx" id="cpf"  oninput=mascara_cpf() maxlength="14" >
+</div>
+
+<div id="div5">
+<label>CEP</label>
+<input type="text" placeholder="xx.xxx-xxx" id="cep" oninput=mascara_cep() maxlength="10">
+</div>
+
+<div id="div6">
+    <label>CNPJ</label>
+    <input type="text" placeholder="XX.XXX.XXX/0001-XX" id="cnpj" oninput=mascara_cnpj() maxlength="18">
+    </div>
+
+    <div id="div7">
+        <label>Codigo</label>
+        <input type="text" placeholder="xx_xx//xxx-xxx.9.xxx" id="cod" oninput=mascara_cod() maxlength="20">,
+        </div>
+  <a href="pag2.html" id="btn">ENVIAR</a>
+</header>
+
+<script src="java.js"></script>
+
+</body>
+</html>
